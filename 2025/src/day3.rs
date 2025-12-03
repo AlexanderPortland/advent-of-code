@@ -33,7 +33,7 @@ fn find_max(vals: &[u8]) -> Option<(u8, usize)> {
 
 #[cfg(test)]
 mod test {
-    use crate::day3::solve;
+    use super::solve;
 
     const EXAMPLE_INPUT: &str = r"987654321111111
 811111111111119

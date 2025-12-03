@@ -1,4 +1,6 @@
 #![allow(clippy::unreadable_literal, clippy::must_use_candidate)]
+
+pub mod day2;
 pub mod day3;
 
 /// Parses an array of numeric digits from `input`, with rows delimited by newlines.
