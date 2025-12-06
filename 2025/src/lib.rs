@@ -3,6 +3,8 @@
 pub mod day2;
 pub mod day3;
 pub mod day4;
+// pub mod day5;
+pub mod day6;
 
 /// Parses an array of numeric digits from `input`, with rows delimited by newlines.
 pub fn parse_num_block(input: &str) -> Box<[Box<[u8]>]> {
